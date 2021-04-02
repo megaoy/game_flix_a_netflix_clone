@@ -1,3 +1,7 @@
+:root{
+    --azul: #00ff00
+}
+
 /* reset css */
 
 *{
@@ -11,3 +15,17 @@
 }
 
 /* base site rules */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #823224;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
