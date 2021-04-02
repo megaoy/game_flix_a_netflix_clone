@@ -64,7 +64,7 @@ header nav a{
 }
 
 
-/* feaatured game */
+/* featured game */
 
 .cover_game{
     display: flex;
@@ -77,4 +77,16 @@ header nav a{
     min-height: 30vh;
     width: 100%;
     font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.cover_game .title{
+    font-size: 2rem;
+}
+
+
+
+.cover_game .description{
+    margin-top: 1rem;
+    width: 55%;
 }
