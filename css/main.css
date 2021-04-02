@@ -1,5 +1,7 @@
 :root{
-    --azul: #00ff00
+    --light_green: #a6ec8d;
+    --rich_black_forgra_29: #061223;
+    --text_white: #dbe7e7;
 }
 
 /* reset css */
@@ -16,16 +18,46 @@
 
 /* base site rules */
 
+a{
+    color: var(--text_white);
+    text-decoration: none;
+}
+
 body{
+    background-color: var(--rich_black_forgra_29);
+    color: var(--text_white);
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.wrapper{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    min-height: 100vh;
-    background-color: #823224;
-    margin: 0;
-    padding: 0;
+    justify-content: flex-start;
+    margin: 1rem 0;
+
+}
+
+.green_text{
+    color: var(--light_green);
+}
+
+
+/* header rules */
+
+
+header nav{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+header nav {
+    margin-left: 1rem
+
+}
+
+header nav a{
+    margin-left: 1rem;
 }
