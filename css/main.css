@@ -62,3 +62,19 @@ header nav a{
     font-size: 1.5rem;
     
 }
+
+
+/* feaatured game */
+
+.cover_game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%) , url("../imgs/cover/fortnite_cover_image.jpg");
+    background-size: cover;
+    min-height: 30vh;
+    width: 100%;
+    font-size: 1rem;
+}
