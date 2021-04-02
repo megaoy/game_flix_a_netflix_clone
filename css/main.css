@@ -2,6 +2,7 @@
     --light_green: #a6ec8d;
     --rich_black_forgra_29: #061223;
     --text_white: #dbe7e7;
+    --dark_turquoise: #4CD9DE;
 }
 
 /* reset css */
@@ -78,15 +79,36 @@ header nav a{
     width: 100%;
     font-size: 1rem;
     padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 .cover_game .title{
-    font-size: 2rem;
+    font-size: 4rem;
+    color: var(--dark_turquoise);
+    margin-bottom: 1rem;
 }
-
-
 
 .cover_game .description{
     margin-top: 1rem;
     width: 55%;
 }
+
+.cover_game .wrapper .buttons button{
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--rich_black_forgra_29);
+    font-size: 1.2rem;
+    
+}
+
+.play{
+    background-color: var(--light_green);
+}
+
+.save{
+    background-color: var(--dark_turquoise);
+}
+
+/* games section list */
