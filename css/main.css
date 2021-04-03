@@ -84,7 +84,7 @@ header nav a{
 
 .cover_game .title{
     font-size: 4rem;
-    color: var(--dark_turquoise);
+    color: var(--light_green);
     margin-bottom: 1rem;
 }
 
@@ -121,5 +121,5 @@ header nav a{
 }
 
 .games_section .game_section_title{
-    color: var(--dark_turquoise);
+    color: var(--light_green);
 }
