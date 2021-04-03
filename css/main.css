@@ -112,3 +112,10 @@ header nav a{
 }
 
 /* games section list */
+
+
+.games_section div .item img{
+    width: 22rem;
+    height: 30rem;
+    background-size: cover;
+}
