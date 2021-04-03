@@ -119,3 +119,7 @@ header nav a{
     height: 30rem;
     background-size: cover;
 }
+
+.games_section .game_section_title{
+    color: var(--dark_turquoise);
+}
