@@ -1,7 +1,9 @@
 :root{
     --light_green: #a6ec8d;
+    --light_green_h: #7bff47;
     --rich_black_forgra_29: #061223;
     --text_white: #dbe7e7;
+    --text_white_h: #ffffff;
     --dark_turquoise: #4CD9DE;
 }
 
@@ -62,6 +64,14 @@ header nav a{
     margin-left: 1rem;
     font-size: 1.5rem;
     
+}
+
+header nav a:hover{
+    color: var(--text_white_h);
+}
+
+.green_text:hover{
+    color: var(--light_green_h);
 }
 
 
