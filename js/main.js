@@ -1,7 +1,7 @@
 // setup carrosel basic
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:35,
     nav:false,
     responsive:{
         0:{

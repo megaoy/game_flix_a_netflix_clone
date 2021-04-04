@@ -125,11 +125,23 @@ header nav a:hover{
 
 
 .games_section div .item img{
-    width: 22rem;
-    height: 30rem;
+    width: 20rem;
+    height: 28rem;
     background-size: cover;
 }
 
 .games_section .game_section_title{
     color: var(--light_green);
+}
+
+.games_section div .item{
+    border: 5px solid var(--rich_black_forgra_29);
+   
+
+}
+
+.games_section div .item:hover{
+    border: 5px solid var(--light_green);
+    
+
 }
