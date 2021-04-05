@@ -1,0 +1,38 @@
+:root{
+    --light_green: #a6ec8d;
+    --light_green_h: #A6EC8D;
+    --rich_black_forgra_29: #061223;
+    --text_white: #dbe7e7;
+    --text_white_h: #ffffff;
+    --dark_turquoise: #4CD9DE;
+    --dark_turquoise_h: #0cedf5;
+}
+/* cover img */
+.cover_profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%) , url("../imgs/cover/fortnite_cover_image.jpg");
+    background-size: cover;
+    min-height: 30vh;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cover_profile .profile_imge img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.cover_profile .profile_title{
+    font-size: 3em;
+    color: var(--light_green);
+}

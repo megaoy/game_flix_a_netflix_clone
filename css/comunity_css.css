@@ -10,14 +10,14 @@
 }
 
 
-.forum{
+.post_section{
     width: 100%;
 }
 
 /* side bar */
 
 
-.forum .wrapper_v{
+.post_section .wrapper_v{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -27,7 +27,7 @@
 
 }
 
-.forum .wrapper_v .sidebar{
+.post_section .wrapper_v .sidebar{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
