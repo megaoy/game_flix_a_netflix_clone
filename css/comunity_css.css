@@ -13,8 +13,9 @@
 .forum .wrapper_v{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: left;
+    height: 70vh;
 
 }
 
@@ -24,7 +25,9 @@
     align-items: flex-start;
     justify-content: center;
     background-color: var(--light_green);
-    height: 50vh;
+    padding: 1rem 1.5rem 12rem 0rem;
+    width: 20vw;
+    
     
 }
 
@@ -32,7 +35,7 @@
     background-color: var(--light_green);
     color: var(--rich_black_forgra_29);
     text-decoration: none;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 /* articles */
@@ -40,11 +43,16 @@
 .forum .articles{
     display: flex;
     flex-direction: column;
-    align-self: start;
+    align-self: center;
     justify-content: center;
     margin: 2rem 0;
     margin-left: 2rem;
+    width: 80vw;
+}
 
+.forum .articles .top_post_art {
+    padding: 1rem;
+    
 }
 
 .forum .articles .top_post_art .title{
@@ -58,8 +66,9 @@
 }
 
 .forum .articles .top_post_art{
-    border: 0.5rem solid var(--light_green);
-    border-radius: 10%;
+    border: 10px solid var(--light_green);
+    border-radius: 1rem 1rem 0 0;
     margin-bottom: 1rem;
     width: 75%;
 }
+
