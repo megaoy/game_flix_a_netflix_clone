@@ -38,7 +38,7 @@
     
 }
 
-.forum .wrapper_v .sidebar a{
+.post_section .wrapper_v .sidebar a{
     background-color: var(--dark_turquoise);
     color: var(--rich_black_forgra_29);
     text-decoration: none;
@@ -51,7 +51,7 @@
 
 /* articles */
 
-.forum .articles{
+.post_section .articles{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -59,7 +59,7 @@
     width: 100%;
 }
 
-.forum .articles .top_post_art {
+.post_section .articles .top_post_art {
     padding: 1rem 0;
     
     width: 100%;
@@ -70,7 +70,7 @@
     
 }
 
-.forum .articles .top_post_art .title{
+.post_section .articles .top_post_art .title{
     color: var(--light_green);
     border-bottom: 2px solid var(--light_green);
     margin: 0 2rem;
@@ -78,7 +78,7 @@
     margin-top: 1rem;
 }
 
-.forum .articles .top_post_art .post{
+.post_section .articles .top_post_art .post{
     color: var(--text_white);
     margin: 0 2rem;
     text-align: justify;
