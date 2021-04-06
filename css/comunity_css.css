@@ -43,10 +43,17 @@
     color: var(--rich_black_forgra_29);
     text-decoration: none;
     padding: 1rem 0rem 1rem 1.5rem;
-    border-bottom: 2px solid var(--light_green);
+    border-bottom: 5px solid var(--light_green);
     min-width: 85%;
     margin-bottom: 1rem;
     color: var(--rich_black_forgra_29);
+}
+
+.post_section .wrapper_v .sidebar a:hover{
+    border: 5px solid var(--text_white_h); 
+    background-color: var(--dark_turquoise_h);
+    color: var(--text_white_h);
+    padding-right: 2rem;
 }
 
 /* articles */
